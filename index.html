@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resso....</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./images/res.jpeg" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="logo">
+            <a href="">
+                <img src="./images/Resso.webp" alt="Logo">
+            </a>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Search</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fas fa-book"></span>
+                        <span>Your Library</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Create Playlist</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Liked Songs</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="policies">
+            <ul>
+                <li>
+                    <a href="">Cookies</a>
+                </li>
+                <li>
+                    <a href="">Privacy</a>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <div class="main-container">
+        <div class="topbar">
+            <div class="prev-next-buttons">
+                <button type="button" class="fa fas fa-chevron-left"></button>
+                <button type="button" class="fa fas fa-chevron-right"></button>
+            </div>
+
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="">Sign Up</a>
+                    </li>
+                </ul>
+                <button type="button">Login</button>
+            </div>
+        </div>
+
+        <div class="spotify-playlists">
+            <h2>Resso Playlists</h2>
+
+            <div class="list">
+                <div class="item">
+                    <img src="./images/vja.jpg" id="image">
+                    <script>
+                        let play = document.getElementById("image");
+                            function playMusic() {
+                             let audio = new Audio("songs/Aathichudi.mp3");
+                             audio.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Vijay Antony Top Hits</h4>
+                    <p>Rhythm of Kuthu Songs....</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/karthick.jpg" id="im"/>
+                    <script>
+                        let play1 = document.getElementById("im");
+                            function playMusics() {
+                             let audio1 = new Audio("songs/Ava Enna Enna Thedi Vantha Anjala.mp3");
+                             audio1.play()
+                          }
+                          play.addEventListeners("click", playMusics);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Karthick</h4>
+                    <p>Love songs..</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/yuvan.jpg" id="yu"/>
+                    <script>
+                        let play2 = document.getElementById("yu");
+                            function playMusic() {
+                             let audios = new Audio("songs/Aathichudi.mp3");
+                             audios.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Yuvan Shankar Raja</h4>
+                    <p>U1 drugs💉...</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/spb.jpg" id="spb" />
+                    <script>
+                        let play3 = document.getElementById("spb");
+                            function playMusic() {
+                             let audio2 = new Audio("songs/Aathichudi.mp3");
+                             audio2.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>SP BalaSubramanian</h4>
+                    <p>Old Hits...</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/ani.jpg" id="ani"/>
+                    <script>
+                        let play4 = document.getElementById("ani");
+                            function playMusic() {
+                             let audio3 = new Audio("songs/Aathichudi.mp3");
+                             audio3.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Anirudh Hits</h4>
+                    <p>Romantic and recent chill hits🖤</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/shreya.jpg" id="shre"/>
+                    <script>
+                        let play6 = document.getElementById("shre");
+                            function playMusic() {
+                             let audio4 = new Audio("songs/Aathichudi.mp3");
+                             audio4.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Shreya Ghosal</h4>
+                    <p>Melody Hits...</p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="spotify-playlists">
+            <h2>Focus</h2>
+            <div class="list">
+                <div class="item">
+                    <img src="./images/andrea.jpg" id="and" />
+                    <script>
+                        let play7 = document.getElementById("and");
+                            function playMusic() {
+                             let audio5 = new Audio("songs/Aathichudi.mp3");
+                             audio5.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Andrea</h4>
+                    <p>Love hits</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/deef.jpg" id="deef"/>
+                    <script>
+                        let play8 = document.getElementById("deef");
+                            function playMusic() {
+                             let audio6 = new Audio("songs/Aathichudi.mp3");
+                             audio6.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Santhosh Narayanan</h4>
+                    <p>New Hits...</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/swetha.jpg" id="sw" /><script>
+                        let play9 = document.getElementById("sw");
+                            function playMusic() {
+                             let audio7 = new Audio("songs/Aathichudi.mp3");
+                             audio7.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Swetha</h4>
+                    <p>Love hits🖤</p>
+                </div>
+
+
+
+                <div class="item">
+                    <img src="./images/arr.jpg" id="arr" />
+                    <script>
+                        let plays = document.getElementById("arr");
+                            function playMusic() {
+                             let audio8 = new Audio("songs/Aathichudi.mp3");
+                             audio8.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>AR Rahman</h4>
+                    <p>Top Hits..</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/chinmai.jpg" id="chin"/>
+                    <script>
+                        let plays1 = document.getElementById("chin");
+                            function playMusic() {
+                             let audio9 = new Audio("songs/Aathichudi.mp3");
+                             audio9.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Chinmai</h4>
+                    <p>Melody Hits</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/vijay.jpg" id="vj"/>
+                    <script>
+                        let plays2 = document.getElementById("vj");
+                            function playMusic() {
+                             let audios1 = new Audio("songs/Aathichudi.mp3");
+                             audios1.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Thalaphathy Vijay</h4>
+                    <p>Marana Mass...</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/anuradha.jpg" id="anu" />
+                    <script>
+                        let plays3 = document.getElementById("anu");
+                            function playMusic() {
+                             let audios2 = new Audio("songs/Aathichudi.mp3");
+                             audios2.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Anuradha</h4>
+                    <p>Melting Melody...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spotify-playlists">
+            <h2>Sound of India</h2>
+            <div class="list">
+                <div class="item">
+                    <img src="./images/dhanush2.jpg"  id="dhan"/>
+                    <script>
+                        let plays4 = document.getElementById("dhan");
+                            function playMusic() {
+                             let audios3 = new Audio("songs/Aathichudi.mp3");
+                             audio3.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Dhanush</h4>
+                    <p>Soup Songs...</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/dhee2.jpg" id="dhee"/>
+                    <script>
+                        let plays5 = document.getElementById("dhee");
+                            function playMusic() {
+                             let audios5 = new Audio("songs/Aathichudi.mp3");
+                             audios5.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Dhee</h4>
+                    <p>Mass Songs...</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/chithra.jpg" id="chi" />
+                    <script>
+                        let plays6 = document.getElementById("chi");
+                            function playMusic() {
+                             let audios6 = new Audio("songs/Aathichudi.mp3");
+                             audios6.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Chithra</h4>
+                    <p>Old Hits</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/gv.jpg" id="gv"/>
+                    <script>
+                        let plays7 = document.getElementById("gv");
+                            function playMusic() {
+                             let audios7 = new Audio("songs/Aathichudi.mp3");
+                             audios7.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>GV Prakash</h4>
+                    <p>Melody Songs...</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/arjitsing.jpg" id="arji"/>
+                    <script>
+                        let plays8 = document.getElementById("arji");
+                            function playMusic() {
+                             let audios8 = new Audio("songs/Aathichudi.mp3");
+                             audios8.play()
+                          }
+                          play.addEventListener("click", playMusic);
+                   </script>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Arjit Singh</h4>
+                    <p>Hindi Songs...</p>
+                </div>
+
+                <div class="item">
+              <a href="harrish.html">     
+                <img src="./images/harrisjeyaraj.jpg" id="har"/>
+              </a>
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Harris JeyaRaj</h4>
+                    <p>Love songs</p>
+                </div>
+            </div>
+
+            <hr>
+        </div>
+
+    </div>
+
+    <div class="preview">
+        <div class="text">
+            <h6>Preview of Spotify</h6>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <div class="button">
+            <button type="button">Sign up free</button>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/ef9a692198.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
